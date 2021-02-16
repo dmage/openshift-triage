@@ -317,7 +317,7 @@ function getData() {
   } else {
     url += 'failure_data.json'
   }
-  url = 'http://localhost:8000/failure_data.json'
+  url = 'https://dmage.github.io/openshift-triage/failure_data.json'
 
   setElementVisibility('load-status', true);
   setElementVisibility('clusters', false);
